@@ -18,42 +18,42 @@ How to use:
 Open 2 terminals on the root folder
 
 On the first terminal:
-1) `cd BackEnd/`
-2) `npm i`
-3) `npm start`
+- `cd BackEnd/`
+- `npm i`
+- `npm start`
 
 On the second terminal:
-1) `cd FrontEnd/`
-2) `npm i`
-3) `grunt deploy`
-4) `http://localhost:3000`
+- `cd FrontEnd/`
+- `npm i`
+- `grunt deploy`
+- `http://localhost:3000`
 
 
 How to debug Front End
 Unit tests:
-1) `Open a terminal on FrontEnd/`
-2) `grunt test`
+- `Open a terminal on FrontEnd/`
+- `grunt test`
 
 - or
 
-1) `Open a terminal on tests/UnitTests/`
-2) `karma start`
+- `Open a terminal on tests/UnitTests/`
+- `karma start`
 
 Integration tests:
 
-1) `Open a terminal`
-2) `npm install -g protractor`
-3) `webdriver-manager update`
-4) `webdriver-manager start`
-5) `Open a terminal on tests/IntergrationTests/`
-6) `protractor conf.js`
+- `Open a terminal`
+- `npm install -g protractor`
+- `webdriver-manager update`
+- `webdriver-manager start`
+- `Open a terminal on tests/IntergrationTests/`
+- `protractor conf.js`
 
 Development
 `grunt watch`
 
 To run unit test in Back end:
-1) `open a terminal on BackEnd folder`
-2) `npm test`
+- `open a terminal on BackEnd folder`
+- `npm test`
 
 
 
