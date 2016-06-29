@@ -114,4 +114,5 @@ module.exports = (grunt) => {
 	//Register Grunt Tasks
 	grunt.registerTask('test', ['karma']);
 	grunt.registerTask('default', ['watch']);
+	grunt.registerTask('deploy', ['eslint', 'browserify', 'karma', 'html_minify', 'sass', 'uglify']);
 };

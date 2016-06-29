@@ -4,8 +4,8 @@
  * @framework angular
  * @kind jsConcept
  * @type constant
- * @name API_PATHS
- * @memberof module:usersAuthModule
+ * @name CARDS_API_PATHS
+ * @memberof module:deckModule
  * @Description Contains Api urls
  * @author Michail Tsougkranis
  * @version 1.0
