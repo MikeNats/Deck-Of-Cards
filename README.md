@@ -40,6 +40,7 @@ Unit tests:
 2) `karma start`
 
 Integration tests:
+
 1) `Open a terminal`
 2) `npm install -g protractor`
 3) `webdriver-manager update`
