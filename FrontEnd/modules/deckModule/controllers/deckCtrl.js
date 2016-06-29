@@ -16,7 +16,12 @@
 import deckModule from '../deckModule';
 
 deckModule.controller('deckCtrl', ['$scope', 'deckApiFctry', ($scope, deckApiFctry) => {
+	$scope.activeCards = [];
+	$scope.numOfCardsToDraw = 0;
+	$scope.message = 'Lets Play!!!';
+
+
 	deckApiFctry.getCards().then((response) => {
-		console.log(response.data[0].cards.length);
+		$scope.cards = response.data[0].cards;
 	});
 }]);
