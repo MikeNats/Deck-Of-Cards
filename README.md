@@ -2,7 +2,7 @@
 
 This is a Full Stack Responsive JavaScript Application that emulates simple operations with a deck of card game
 
-The Front end repo can be found here: https://github.com/MikeNats/Deck-Of-Cards-Front-End.git
+The Front End repo can be found here: https://github.com/MikeNats/Deck-Of-Cards-Front-End.git
 
 - Technologies:
 
@@ -22,9 +22,12 @@ Requirements
 - Grunt
 
 How to use:
+
 Clone both repos under the same root folder:
+
 Front End repo: https://github.com/MikeNats/Deck-Of-Cards-Front-End.git
-Front Back repo: https://github.com/MikeNats/Deck-Of-Cards-Back-End.git
+
+Back End repo: https://github.com/MikeNats/Deck-Of-Cards-Back-End.git
 
 Open 2 terminals on the root folder
 
@@ -66,7 +69,7 @@ To run unit test in Back end:
 - `cd Deck-Of-Cards-Front-End/`
 - `npm i`
 - `grunt deploy`
-- `open a terminal on Deck-Of-Cards-Back-End folder`
+- `open a terminal on Deck-Of-Cards-Back-End`
 - `npm test`
 
 
