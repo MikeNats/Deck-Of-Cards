@@ -34,7 +34,7 @@ globalMiddlewares(app);
 /**
  * @description Router for index page
  */
-app.get('/', (req, res) => res.sendFile(path.join(__dirname, '..') + '/App/views/index.html'));
+app.get('/', (req, res) => res.sendFile(path.join(__dirname, '..') + '/App/index.html'));
 
 /**
  * @description Authentication API for signIn, signUp
