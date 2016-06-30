@@ -5,11 +5,11 @@ This is a Full Stack Responsive JavaScript Application that emulates simple oper
 The Front end repo can be found here: https://github.com/MikeNats/Deck-Of-Cards-Front-End.git
 
 - Technologies:
--- Front End: HTML5, CSS, SASS, Foundation 5, Angular(1.5).
--- Front End Test Suite: Karma, Jasmine, Protractor.
+-- Front End: HTML5, CSS, SASS, Foundation 5, Angular(1.5). 
+-- Front End Test Suite: Karma, Jasmine, Protractor. 
 
--- Back End: Node, Express, MogoDB.
--- Back End Test Suite: Mocha.
+-- Back End: Node, Express, MogoDB. 
+-- Back End Test Suite: Mocha. 
 
 Requirements
 
