@@ -1,3 +1,5 @@
+## Deck of Cards
+
 This is an Full Stack Responsive JavaScript application that emulates simple operations with a deck of card game
 
 - Technologies:
