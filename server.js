@@ -1,10 +1,10 @@
+'use strict';
+
 /**
  * Express Web Server
  * Listening to port 3000 or server port
  * To start the server type in console `npm start`
  */
-
-'use strict';
 
 import express from 'express';
 import path from 'path';
@@ -37,7 +37,7 @@ globalMiddlewares(app);
 app.get('/', (req, res) => res.sendFile(path.join(__dirname, '..') + '/App/index.html'));
 
 /**
- * @description Authentication API for signIn, signUp
+ * @description Deck API
  */
 deckRouter(app);
 
